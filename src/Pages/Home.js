@@ -9,11 +9,15 @@ import justin3 from '../assets/images/justin3.png'
 
 function Home() {
   return (
-    <div> 
+    <div className='bg-[#151515]'> 
 
-      <div className="border-2 border-black w-[80%] m-auto">
-        <h1 className='text-center'> What we strive to do</h1>
-        <h1> Allll </h1>
+      <div className=" w-[80%] m-auto py-[5%]">
+
+        <div className='grid justify-center text-center w-[50%] m-auto'>
+        <h1 className=''> Personal Growth <span id='blue'> Community Impact </span></h1>
+          <p className='w-[60%] mx-auto my-[5%]'>Axis Consulting is a student-led pro-bono consultancy part of Simon Fraser University.</p>
+        </div>
+
       </div>
     </div>
 )

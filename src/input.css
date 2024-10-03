@@ -2,87 +2,44 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
-p {
-    font-size: 21vw;
-    font-family: "Poppins", sans-serif;
-    font-weight: 750;
-    font-style: normal;
-    line-height: 0.8;
-    letter-spacing: -.01em;
-    color: #F15B40;
-
-}
-
-p#little {
-    font-size: 5vw;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    line-height: 0.8;
-    color: #F15B40;
-
-}
-
-h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    letter-spacing: -.01em;
-    font-size: 2.3vw;
-    line-height: 0.95;
-}
-
-h2 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1.3vw;
-    line-height: 0.95;
-}
-
-h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1.05vw;
-    line-height: normal;
-}
-
-
-li {
-    font-weight: 500;
-    font-size: 2vw;
-}
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-#small {
-    font-size: 1vw;
-}
-
-/*  <div className='border border-black w-fit px-[1.5%] py-[0.5%] rounded-full bg-white'>
-*/
-
-.button-container {
-    background-color: white;
-    color: black;
-    border-radius: 9999px;
-    width: fit-content;
-    border: 1px solid black;
-    padding: 0.5% 1.5%;
-    transition: ease-in-out 300ms;
-
-}
-
-.button-container:hover{
-    background-color:black;
+h1 {
+    font-family: "Apfel Grotezk", sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
     color:white;
-    border-radius: 9999px;
-    width: fit-content;
-    border: 1px solid black;
-    padding: 0.5% 1.5%;
-    transition: ease-in-out 300ms;
-    cursor:pointer;
-
+    line-height: 4lvw;
 }
 
+h6 {
+    font-family: "SF Pro", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+}
+
+#blue {
+    color: #4B7BFF;
+}
+
+p {
+    font-family: "SF Pro", sans-serif;
+    font-size: 1rem;
+    color:white;
+}
+
+
+a{
+    transition: ease-in-out .3s;
+}
+
+a:hover, a:focus {
+    cursor: pointer;
+    color: #4B7BFF;
+    transition: ease-in-out .3s;
+}
