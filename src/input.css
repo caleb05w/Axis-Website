@@ -16,6 +16,24 @@ h1 {
     line-height: 4lvw;
 }
 
+
+
+h2 {
+    font-family: "SF Pro", sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    color:white;
+    line-height: 2.7rem;
+}
+
+h3 {
+    font-family: "SF Pro", sans-serif;
+    font-size: 1.5/rem;
+    font-weight: 100;
+    color:white;
+    line-height: 2.7rem;
+}
+
 h6 {
     font-family: "SF Pro", sans-serif;
     font-size: 0.75rem;
@@ -42,4 +60,27 @@ a:hover, a:focus {
     cursor: pointer;
     color: #4B7BFF;
     transition: ease-in-out .3s;
+}
+
+img {
+    width: fit-content;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+
+    border-radius: 999px;
+    padding: 0.7rem 1.4rem;
+    color: white;
+    background: #0933FF;
+    transition: ease-in-out .3s;
+    width: fit-content;
+
+}
+
+button:hover, button:active {
+    background: #2D72ED;
+    transition: ease-in-out .3s;
+    cursor: pointer;
 }
