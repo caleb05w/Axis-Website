@@ -3,84 +3,85 @@
 @import "tailwindcss/utilities";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #151515;
 }
 
 h1 {
-    font-family: "Apfel Grotezk", sans-serif;
-    font-size: 4rem;
-    font-weight: bolder;
-    color:white;
-    line-height: 4lvw;
+  font-family: "Apfel Grotezk", sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+  line-height: 4lvw;
 }
 
-
-
 h2 {
-    font-family: "SF Pro", sans-serif;
-    font-size: 3rem;
-    font-weight: 100;
-    color:white;
-    line-height: 2.7rem;
+  font-family: "SF Pro", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  color: white;
+  line-height: 2.7rem;
 }
 
 h3 {
-    font-family: "SF Pro", sans-serif;
-    font-size: 1.5/rem;
-    font-weight: 100;
-    color:white;
-    line-height: 2.7rem;
+  font-family: "SF Pro", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: white;
+  line-height: 2.7rem;
 }
 
 h6 {
-    font-family: "SF Pro", sans-serif;
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: white;
+  font-family: "SF Pro", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
 }
 
 #blue {
-    color: #4B7BFF;
+  color: #4b7bff;
 }
 
 p {
-    font-family: "SF Pro", sans-serif;
-    font-size: 1rem;
-    color:white;
+  font-family: "SF Pro", sans-serif;
+  font-size: 1rem;
+  color: white;
 }
 
-
-a{
-    transition: ease-in-out .3s;
+a {
+  transition: ease-in-out 0.3s;
 }
 
-a:hover, a:focus {
-    cursor: pointer;
-    color: #4B7BFF;
-    transition: ease-in-out .3s;
+a:hover,
+a:focus {
+  cursor: pointer;
+  color: #4b7bff;
+  transition: ease-in-out 0.3s;
 }
 
 img {
-    width: fit-content;
-    height: 100%;
-    object-fit: cover;
+  width: fit-content;
+  height: 100%;
+  object-fit: cover;
 }
 
 button {
-
-    border-radius: 999px;
-    padding: 0.7rem 1.4rem;
-    color: white;
-    background: #0933FF;
-    transition: ease-in-out .3s;
-    width: fit-content;
-
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  color: white;
+  background: #0933ff;
+  transition: ease-in-out 0.3s;
+  width: fit-content;
 }
 
-button:hover, button:active {
-    background: #2D72ED;
-    transition: ease-in-out .3s;
-    cursor: pointer;
+button:hover,
+button:active {
+  background: #2d72ed;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
 }
