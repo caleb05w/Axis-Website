@@ -11,7 +11,8 @@ import {
 import Home from "../Pages/Home.js";
 import About from "../Pages/About.js";
 import Test from "../Pages/test.js";
-import Clients from "../Pages/Clients.js"
+import Clients from "../Pages/Clients.js";
+import GetInvolved from "../Pages/GetInvolved.js";
 
 //Componnets
 import { AnimatePresence } from "framer-motion";
@@ -25,6 +26,7 @@ function AnimatedRoutes() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/Clients" element={<Clients />} />
+        <Route exact path="/GetInvolved" element={<GetInvolved />} />
 
         <Route exact path="/test" element={<Test />} />
       </Routes>
