@@ -3,8 +3,8 @@ import Logo from "../assets/Logo.png";
 
 function Navbar() {
   return (
-    <div>
-      <div className="flex justify-between px-[5%] py-[1%] bg-[#151515]">
+    <div className="fixed w-full h-fit z-50 top-0">
+      <div className="flex justify-between px-[5%] py-[1%] bg-transparent">
         <h6>
           <a href="/">
             <b>

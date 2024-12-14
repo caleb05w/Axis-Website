@@ -5,6 +5,7 @@ import ImageContent from "../Components/ImageContent";
 // /Components
 import Image from "../Components/Image";
 import FAQContainer from "../Components/FAQContainer";
+import { MdArrowOutward } from "react-icons/md";
 
 /*Images*/
 import LeadershipTeam from "../assets/images/LeadershipTeam.png";
@@ -19,28 +20,56 @@ function GetInvolved() {
         Body="Become a part of the Axis community by coming to events, joining our programs, and applying to be a part of our team when recruitment season begins."
       ></Title>
       <section className="flex flex-row  gap-[1rem] h-[60vh]">
-        <div className="w-[50%] h-full  rounded-[0.5rem] relative overflow-hidden">
-          <Image Image={Odyssey} alt="Odyssey"></Image>
-          <div className="absolute bottom-[8%] px-[2%]">
-            <h4>Odyssey Mentorship Program</h4>
-            <p>Register here</p>
-          </div>
-        </div>
-        <div className=" flex flex-col w-[50%] gap-[1rem] h-full">
-          <div className="min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
-            <Image Image={WestCoastKidsFoundation} alt="Odyssey"></Image>
-
-            <div className="absolute bottom-[10%] px-[4%]  ">
-              <h4>Odyssey Mentorship Program</h4>
-              <p>Register here</p>
+        <div className="overflow-hidden group rounded-[0.5rem]">
+          <div className="w-[100] h-full ">
+            <Image
+              Image={Odyssey}
+              Scale={"105"}
+              Shade={"30"}
+              alt="Odyssey"
+            ></Image>
+            <div className="absolute bottom-[0%] px-[2%] ">
+              <h4 className=" transition-all duration-500 ease-in-out">
+                Odyssey Mentorship Program
+              </h4>
+              <div className=" absolute flex flex-row hover:cursor-pointer opacity-0 group-hover:opacity-100  mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+                <p className=" ease-in-out duration-500">Register here</p>
+                <div className="text-white  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+                  <MdArrowOutward />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
-            <Image Image={Odyssey} alt="Odyssey"></Image>
+        </div>
+        <div className="flex flex-col w-[50%] gap-[1rem] h-full">
+          <div className="group min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
+            <Image
+              Image={WestCoastKidsFoundation}
+              alt="Odyssey"
+              Scale={"105"}
+            ></Image>
 
-            <div className="absolute bottom-[10%] px-[4%]">
-              <h4>Support West Coast Kids Foundation</h4>
-              <p>Donate Here</p>
+            <div className="absolute bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
+              <h4>Support West Kids Foundation</h4>
+              <div className=" absolute flex flex-row hover:cursor-pointer opacity-0 group-hover:opacity-100  mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+                <p className=" ease-in-out duration-500">Register here</p>
+                <div className="  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+                  <MdArrowOutward />
+                </div>
+              </div>{" "}
+            </div>
+          </div>
+          <div className="group min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
+            <Image Image={Odyssey} alt="Odyssey" Scale={"105"}></Image>
+
+            <div className="absolute bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
+              <h4>Support West Kids Foundation</h4>
+              <div className=" absolute flex flex-row hover:cursor-pointer opacity-0 group-hover:opacity-100  mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+                <p className=" ease-in-out duration-500">Register here</p>
+                <div className="text-white  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+                  <MdArrowOutward />
+                </div>
+              </div>{" "}
             </div>
           </div>
         </div>

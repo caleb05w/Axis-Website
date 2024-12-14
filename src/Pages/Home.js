@@ -30,36 +30,51 @@ function Home() {
         </div>
 
         <div className="grid grid-cols-2 gap-[0.8rem]">
-          <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
+          <section className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
             <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <IoIosCheckmark style={{ color: "#4B7BFF" }} size="3lvw" />
+              <div className=" w-[5vh] flex flex-col items-center justify-center">
+                <IoIosCheckmark style={{ color: "#4B7BFF" }} size="3lvw" />
+              </div>{" "}
               <h3 className="">63 Projects</h3>
             </div>
 
             <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <MdOutlinePeopleAlt style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              <div className=" w-[5vh] flex flex-col items-center justify-center">
+                <MdOutlinePeopleAlt
+                  style={{ color: "#4B7BFF" }}
+                  size="1.5lvw"
+                />
+              </div>
               <h3 className="">60 Clients</h3>
             </div>
 
             <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <IoMdStarOutline style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              <div className=" w-[5vh] flex flex-col items-center justify-center">
+                <IoMdStarOutline style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              </div>{" "}
               <h3 className="">500 Billable Hours/Project</h3>
             </div>
-          </div>
+          </section>
 
           <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
             <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <BsPaperclip style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              <div className=" w-[5vh] flex flex-col items-center justify-center">
+                <BsPaperclip style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              </div>{" "}
               <h3 className="">212 Alumni</h3>
             </div>
 
             <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <FaRegHeart style={{ color: "#4B7BFF" }} size="1lvw" />
+              <div className=" w-[5vh] flex flex-col items-center justify-center">
+                <FaRegHeart style={{ color: "#4B7BFF" }} size="1lvw" />
+              </div>{" "}
               <h3 className="">96% Client Satisfaction</h3>
             </div>
 
             <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <FaRegStickyNote style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              <div className=" w-[5vh] flex flex-col items-center justify-center">
+                <FaRegStickyNote style={{ color: "#4B7BFF" }} size="1.5lvw" />
+              </div>{" "}
               <h3 className="">92% Implementation Rate</h3>
             </div>
           </div>
