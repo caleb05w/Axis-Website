@@ -11,11 +11,11 @@ function ImageContainer({ Header, Body, CTA, Image }) {
       <div className="absolute flex flex-col gap-[1rem] text-left p-[2rem] pb-[3.5rem] group-hover:pb-[4rem] bottom-0 opacity-[100%] z-10 text-white transition-all duration-500 ease-in-out">
         <h3>{Header}</h3>
         <p>{Body}</p>
-        <div className="flex absolute bottom-0 group-hover:mb-[2rem] mb-[1rem] opacity-0 group-hover:opacity-100 transition-all duration-[650ms] ease-in-out hover:cursor-pointer hover:text-blue-500">
-          <p className=" hover:text-blue-500 transition-all duration-[650ms]">
+        <div className="flex absolute bottom-0 group-hover:mb-[2rem] mb-[1rem] opacity-0 group-hover:opacity-100 transition-all duration-[650ms] ease-in-out hover:cursor-pointer hover:text-my-blue">
+          <p className=" hover:text-my-blue text-my-light-blue transition-all duration-[650ms]">
             {CTA}{" "}
           </p>
-          <div className="flex flex-row items-center ml-[0.25rem]">
+          <div className="flex flex-row items-center ml-[0.25rem] text-my-light-blue group-hover:text-my-blue transition-all duration-[650ms]">
             <MdArrowOutward />
           </div>
         </div>

@@ -26,13 +26,13 @@ function About() {
               Image={About1}
             ></ImageContainer>
             <ImageContainer
-              Header="Our Values"
-              Body="We aim to create a platform for students of all perspectives to experience real-world consulting."
+              Header="Our Mission"
+              Body="To support undergraduate students understand and prepare for careers in consulting fields through experiential learning opportunities.together emerging leaders to help our clients build their capabilities."
               Image={About2}
             ></ImageContainer>
             <ImageContainer
-              Header="Our Values"
-              Body="We aim to create a platform for students of all perspectives to experience real-world consulting."
+              Header="Our Vision"
+              Body="Empowering undergraduate students to excel in consulting careers through hands-on learning and real-world client engagements."
               Image={About3}
             ></ImageContainer>
           </div>

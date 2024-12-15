@@ -11,8 +11,8 @@ import ImageContent from "../Components/ImageContent";
 import org from "../assets/images/org.png";
 
 // components
-import IconLabel from "../Components/IconLabel";
 import ImageContainer from "../Components/ImageContainer";
+import IconContainer from "../Components/IconContainer";
 
 function Home() {
   return (
@@ -29,56 +29,41 @@ function Home() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-[0.8rem]">
-          <section className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
-            <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <div className=" w-[5vh] flex flex-col items-center justify-center">
-                <IoIosCheckmark style={{ color: "#4B7BFF" }} size="3lvw" />
-              </div>{" "}
-              <h3 className="">63 Projects</h3>
-            </div>
+        <section className="grid grid-cols-2 gap-[0.8rem]">
+          <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
+            <IconContainer
+              Icon={IoIosCheckmark}
+              Text={"63 Projects"}
+            ></IconContainer>
 
-            <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <div className=" w-[5vh] flex flex-col items-center justify-center">
-                <MdOutlinePeopleAlt
-                  style={{ color: "#4B7BFF" }}
-                  size="1.5lvw"
-                />
-              </div>
-              <h3 className="">60 Clients</h3>
-            </div>
+            <IconContainer
+              Icon={MdOutlinePeopleAlt}
+              Text={"200 Consultants"}
+            ></IconContainer>
 
-            <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <div className=" w-[5vh] flex flex-col items-center justify-center">
-                <IoMdStarOutline style={{ color: "#4B7BFF" }} size="1.5lvw" />
-              </div>{" "}
-              <h3 className="">500 Billable Hours/Project</h3>
-            </div>
-          </section>
+            <IconContainer
+              Icon={IoMdStarOutline}
+              Text={"4.5/5 Rating"}
+            ></IconContainer>
+          </div>
 
           <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
-            <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <div className=" w-[5vh] flex flex-col items-center justify-center">
-                <BsPaperclip style={{ color: "#4B7BFF" }} size="1.5lvw" />
-              </div>{" "}
-              <h3 className="">212 Alumni</h3>
-            </div>
+            <IconContainer
+              Icon={BsPaperclip}
+              Text={"100% Retention"}
+            ></IconContainer>
 
-            <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <div className=" w-[5vh] flex flex-col items-center justify-center">
-                <FaRegHeart style={{ color: "#4B7BFF" }} size="1lvw" />
-              </div>{" "}
-              <h3 className="">96% Client Satisfaction</h3>
-            </div>
+            <IconContainer
+              Icon={FaRegHeart}
+              Text={"100% Satisfaction"}
+            ></IconContainer>
 
-            <div className="flex gap-[8%] bg-[#1A1A1A] px-[5%] py-[3%] rounded-md">
-              <div className=" w-[5vh] flex flex-col items-center justify-center">
-                <FaRegStickyNote style={{ color: "#4B7BFF" }} size="1.5lvw" />
-              </div>{" "}
-              <h3 className="">92% Implementation Rate</h3>
-            </div>
+            <IconContainer
+              Icon={FaRegStickyNote}
+              Text={"100% Recommendation"}
+            ></IconContainer>
           </div>
-        </div>
+        </section>
 
         <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem]">
           <h3> Our Engagements </h3>

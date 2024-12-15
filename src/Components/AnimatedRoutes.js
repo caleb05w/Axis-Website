@@ -13,10 +13,10 @@ import About from "../Pages/About.js";
 import Test from "../Pages/test.js";
 import Clients from "../Pages/Clients.js";
 import GetInvolved from "../Pages/GetInvolved.js";
+import Resources from "../Pages/Resources.js";
 
 //Componnets
 import { AnimatePresence } from "framer-motion";
-import Navbar from "./Navbar.js";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -27,6 +27,7 @@ function AnimatedRoutes() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/Clients" element={<Clients />} />
         <Route exact path="/GetInvolved" element={<GetInvolved />} />
+        <Route exact path="/Resources" element={<Resources />} />
 
         <Route exact path="/test" element={<Test />} />
       </Routes>

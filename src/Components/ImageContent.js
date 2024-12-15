@@ -6,6 +6,9 @@ function ImageContent({ Header, Body, ButtonText, Image, AltText }) {
     <div
       data-aos="fade-up"
       data-aos-duration="800"
+      data-aos-delay="200"
+      data-aos-easing="ease-in-sine"
+      data-aos-offset="0"
       className="group relative w-[100%] h-fit rounded-md  text-center hover:cursor-pointer overflow-hidden"
     >
       <img

@@ -30,7 +30,7 @@ h2 {
 
 h3 {
   font-family: "SF Pro", sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
   color: white;
   line-height: 2.7rem;
@@ -82,14 +82,14 @@ button {
   border-radius: 999px;
   padding: 0.7rem 1.4rem;
   color: white;
-  background: #0933ff;
+  background: #2d72ed;
   transition: ease-in-out 0.3s;
   width: fit-content;
 }
 
 button:hover,
 button:active {
-  background: #2d72ed;
+  background: #0933ff;
   transition: ease-in-out 0.3s;
   cursor: pointer;
 }

@@ -13,9 +13,9 @@ function Navbar() {
           </a>
         </h6>
 
-        <div className="grid grid-cols-4">
+        <div className="flex flex-row gap-[2rem]">
           <h6>
-            <a href="/Brand">Brand</a>
+            <a href="/Resources">Resources</a>
           </h6>
           <h6>
             <a href="/about">Team</a>
