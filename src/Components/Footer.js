@@ -8,8 +8,8 @@ function Footer() {
   return (
     <div>
       <nav className="bg-[#151515]">
-        <div className="flex justify-between w-[90%] m-auto pt-[12%]">
-          <div className="">
+        <div className="flex justify-between lg:w-[90%] w-[80%] m-auto pt-[12%]">
+          <div className="lg:block hidden">
             <h6 className="font-bold"> Axis Consulting </h6>
             <div className="flex flex-col mt-[5%]">
               <h6>8888 University Drive</h6>
@@ -18,7 +18,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex w-[25%]  h-auto justify-between max-w-[100lvw]">
+          <div className="flex lg:w-[25%] h-auto justify-between w-full flex-row-reverse">
             <div className="flex flex-col gap-[0.5rem]">
               <h6 className="font-bold"> Resources </h6>
               <a href="#">

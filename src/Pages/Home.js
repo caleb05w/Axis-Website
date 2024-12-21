@@ -13,23 +13,20 @@ import org from "../assets/images/org.png";
 // components
 import ImageContainer from "../Components/ImageContainer";
 import IconContainer from "../Components/IconContainer";
+import Title from "../Components/Title";
 
 function Home() {
   return (
     <div>
-      <div className=" w-[70%] h-fit m-auto py-[5%] flex flex-col gap-[10rem]">
-        <div className="grid justify-center text-center w-[50%] m-auto">
-          <h1 className="">
-            {" "}
-            Personal Growth <span id="blue"> Community Impact </span>
-          </h1>
-          <p className="w-[60%] mx-auto my-[5%]">
-            Axis Consulting is a student-led pro-bono consultancy part of Simon
-            Fraser University.
-          </p>
-        </div>
+      <div className=" lg:w-[70%] w-[88%] h-fit m-auto py-[5%] flex flex-col gap-[5rem] lg:gap-[10rem]">
+        <Title
+          Header="Person Growth,"
+          Header2="Community Impact"
+          Body="Axis Consulting is a student-led pro-bono consultancy part of Simon
+            Fraser University."
+        ></Title>
 
-        <section className="grid grid-cols-2 gap-[0.8rem]">
+        <section className="grid lg:grid-cols-2 gap-[0.8rem]">
           <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
             <IconContainer
               Icon={IoIosCheckmark}
@@ -65,9 +62,9 @@ function Home() {
           </div>
         </section>
 
-        <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem]">
+        <section className="w-[100%] m-auto text-center flex flex-col gap-[1rem] lg:gap-[3rem]">
           <h3> Our Engagements </h3>
-          <div className="flex flex-row gap-[1rem]">
+          <div className="flex flex-col lg:flex-row gap-[1rem]">
             <ImageContainer
               Header={"Visier"}
               Body={

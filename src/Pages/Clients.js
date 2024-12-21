@@ -13,12 +13,12 @@ import Inheret from "../assets/images/Inheret.png";
 
 function Clients() {
   return (
-    <div className=" w-[70%] max-h-100 m-auto flex flex-col mt-[5%] gap-[10rem]">
+    <div className=" lg:w-[70%] w-[85%] max-h-100 m-auto flex flex-col mt-[5%] gap-[5rem] lg:gap-[10rem]">
       <Title
         Header="Our Clients"
         Body="We have worked with a variety of clients from different industries. Here are some of the clients we have worked with."
       />
-      <section className="flex flex-col gap-[3rem]">
+      <section className="flex flex-col gap-[5rem] lg:gap-[3rem]">
         <ClientContent
           Title="CSRO"
           Body="Axis Consulting was professional and cohesive - You would think they were experienced consultants. We were very impressed!"
@@ -51,6 +51,7 @@ function Clients() {
       </section>
       <ImageContent
         Header="Want to work with us?"
+        Body="Let's get in touch"
         ButtonText="Contact Us"
         Image={clientImage}
         AltText="Organization"

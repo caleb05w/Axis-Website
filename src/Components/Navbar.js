@@ -8,7 +8,7 @@ function Navbar() {
         <h6>
           <a href="/">
             <b>
-              <span id="blue">Axis</span> Consulting
+              <span id="my-blue">Axis</span> Consulting
             </b>
           </a>
         </h6>
