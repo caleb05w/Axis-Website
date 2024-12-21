@@ -12,14 +12,14 @@ import org from "../assets/images/org.png";
 
 function Resources() {
   return (
-    <div className=" w-[70%] max-h-100 m-auto flex flex-col mt-[5%] gap-[10rem]">
+    <div className=" w-[85%] lg:w-[70%] max-h-100 m-auto flex flex-col mt-[5%] gap-[5rem] lg:gap-[10rem]">
       <Title
         Header="Our Resources."
         Body="Explore our packages and learn more about what Axis has to offer. "
       ></Title>
 
       <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem]">
-        <div className="flex flex-row gap-[1rem]">
+        <div className="flex flex-col lg:flex-row gap-[1rem]">
           <ImageContainer
             Header={"Visier"}
             Body={
@@ -41,17 +41,17 @@ function Resources() {
 
       <section className="flex flex-col gap-[5rem]">
         <div
-          className="flex flex-row justify-between"
+          className="flex flex-col lg:flex-row justify-between"
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
           data-aos-easing="ease-in-sine"
           data-aos-offset="200"
         >
-          <div className=" max-w-[50%] rounded-[0.25rem] overflow-hidden">
+          <div className=" w-[full] lg:max-w-[50%] rounded-[0.25rem] overflow-hidden">
             <img className="w-full h-full" src={org} alt="org" />
           </div>
-          <div className="flex flex-col gap-[1rem] max-w-[40%]">
+          <div className="flex flex-col gap-[1rem] w-full lg:max-w-[40%]">
             <p>Event</p>
             <h3>Odyssey Mentorship Program</h3>
             <p>
@@ -70,17 +70,17 @@ function Resources() {
         </div>
 
         <div
-          className="flex flex-row justify-between"
+          className="flex flex-col lg:flex-row justify-between"
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
           data-aos-easing="ease-in-sine"
           data-aos-offset="200"
         >
-          <div className=" max-w-[50%] rounded-[0.25rem] overflow-hidden">
+          <div className=" w-[full] lg:max-w-[50%] rounded-[0.25rem] overflow-hidden">
             <img className="w-full h-full" src={org} alt="org" />
           </div>
-          <div className="flex flex-col gap-[1rem] max-w-[40%]">
+          <div className="flex flex-col gap-[1rem] w-full lg:max-w-[40%]">
             <p>Event</p>
             <h3>Strategy & Operations 101</h3>
             <p>
@@ -100,7 +100,7 @@ function Resources() {
       </section>
 
       <section
-        className="w-[100%] m-auto text-center flex flex-col gap-[3rem]"
+        className="w-[100%] m-auto text-center flex flex-col gap-[0.8rem] lg:gap-[3rem]"
         data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="200"
@@ -108,8 +108,8 @@ function Resources() {
         data-aos-offset="0"
       >
         <h3> Our Engagements </h3>
-        <div className="grid grid-cols-2 gap-[0.8rem]">
-          <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
+        <div className="grid lg:grid-cols-2 gap-[0.8rem]">
+          <div className="grid-rows-3 lg:grid flex flex-col gap-[0.8rem] min-w-fit max-h-lvh">
             <IconContainer
               Icon={BsPaperclip}
               Text={"Consulting 101"}
@@ -120,7 +120,7 @@ function Resources() {
             ></IconContainer>
           </div>
 
-          <div className="grid-rows-3 grid gap-[0.8rem] min-w-fit max-h-lvh">
+          <div className="grid-rows-3 lg:grid flex flex-col gap-[0.8rem] min-w-fit max-h-lvh">
             <IconContainer
               Icon={BsPaperclip}
               Text={"Odyssey & Mentorship"}

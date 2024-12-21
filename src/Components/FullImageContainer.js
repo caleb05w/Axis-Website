@@ -1,7 +1,7 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
-function ImageContainer({ Header, Body, CTA, Image }) {
+function FullImageContainer({ Header, Body, CTA, Image }) {
   return (
     <div
       data-aos="fade-up"
@@ -15,9 +15,6 @@ function ImageContainer({ Header, Body, CTA, Image }) {
           <p className=" hover:text-my-blue text-my-light-blue transition-all duration-[650ms]">
             {CTA}{" "}
           </p>
-          <div className="flex flex-row items-center ml-[0.25rem] text-my-light-blue group-hover:text-my-blue transition-all duration-[650ms]">
-            <MdArrowOutward />
-          </div>
         </div>
       </div>
       <div className=" gap-[1%] h-[20rem] lg:min-h-[40rem] rounded-[0.25rem] overflow-hidden object-cover w-[100%] ">
@@ -30,4 +27,4 @@ function ImageContainer({ Header, Body, CTA, Image }) {
   );
 }
 
-export default ImageContainer;
+export default FullImageContainer;
