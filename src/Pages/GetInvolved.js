@@ -97,16 +97,16 @@ function GetInvolved() {
         ></FAQContainer>
 
         <FAQContainer
-          Header={"What is Axis"}
+          Header={"What does pro bono mean?"}
           Body={
-            "Axis is a student-led pro bono organisation in SFU, providing clients with innovative solutions."
+            "Pro bono is short for the Latin phrase pro bono publico, which means for the public good. Essentially, it refers to professional work that is done voluntarily and without payment."
           }
         ></FAQContainer>
 
         <FAQContainer
-          Header={"What is Axis"}
+          Header={"What's next?"}
           Body={
-            "Axis is a student-led pro bono organisation in SFU, providing clients with innovative solutions."
+            "We are currently hiring additional talents to join our roster. Meanwhile, we are running our first mentorship program, Odyssey. Stay tuned for updates on our upcoming firm tours, and our biggest event of the year - Revolve."
           }
         ></FAQContainer>
       </section>
