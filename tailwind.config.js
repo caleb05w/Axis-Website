@@ -7,6 +7,7 @@ module.exports = {
         "my-blue": "#0933FF",
         "my-light-blue": "#366CFF",
         "my-gray": "#939393",
+        "my-light-gray": "#1A1A1A",
       },
     },
   },

@@ -17,7 +17,7 @@ h1 {
   font-size: 4rem;
   font-weight: bolder;
   color: white;
-  line-height: 4lvw;
+  line-height: 4rem;
 }
 
 h2 {
@@ -79,22 +79,22 @@ img {
 }
 
 button {
-  border-radius: 999px;
+  /* border-radius: 999px;
   padding: 0.7rem 1.4rem;
   color: white;
   background: #2d72ed;
   transition: ease-in-out 0.3s;
-  width: fit-content;
+  width: fit-content; */
 }
-
+/* 
 button:hover,
 button:active {
   background: #0933ff;
   transition: ease-in-out 0.3s;
   cursor: pointer;
-}
+} */
 
-@media (max-width: 640px) {
+@media (max-width: 1030px) {
   h1 {
     font-size: 2rem;
     line-height: 2.2rem;
@@ -116,7 +116,7 @@ button:active {
   }
 
   h6 {
-    font-size: 0.625rem;
+    font-size: 16px;
   }
 
   p {
