@@ -79,20 +79,25 @@ img {
 }
 
 button {
-  /* border-radius: 999px;
+  border-radius: 999px;
   padding: 0.7rem 1.4rem;
   color: white;
   background: #2d72ed;
   transition: ease-in-out 0.3s;
-  width: fit-content; */
+  width: fit-content;
 }
-/* 
+#no-hover button:hover {
+  background: none;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
 button:hover,
 button:active {
   background: #0933ff;
   transition: ease-in-out 0.3s;
   cursor: pointer;
-} */
+}
 
 @media (max-width: 1030px) {
   h1 {

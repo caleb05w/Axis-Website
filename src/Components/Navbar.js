@@ -22,7 +22,7 @@ function Navbar() {
         className={`flex lg:flex-row flex-col justify-between px-[5%] lg:py-[1%] bg-transparent w-full lg:w-full lg:my-none my-[1rem]
         `}
       >
-        <div className="w-full flex flex-row justify-between">
+        <div className="w-full flex flex-row justify-between" id="no-hover">
           <h6 className=" flex flex-col justify-center">
             <a href="/">
               <b>
@@ -31,14 +31,14 @@ function Navbar() {
             </a>
           </h6>
           <button
-            className=" w-fit block lg:hidden text-white text-2xl"
+            className=" w-fit block lg:hidden text-white text-2xl bg-transparent"
             onClick={toggleNavbar}
           >
             {isOpen ? "x" : <IoMenu className="w-[10] h-[10] text-3xl" />}
           </button>
         </div>
         <div
-          className={`flex flex-col lg:flex-row lg:justify-end gap-[1rem] lg:gap-[2rem]  lg:w-fit w-full  ease-in-out duration-300  whitespace-nowrap
+          className={`flex flex-col lg:flex-row lg:justify-end gap-[1rem] lg:gap-[2rem]  lg:w-fit w-full  ease-in-out duration-300 lg:opacity-[100]  border-white whitespace-nowrap lg:mt-[0]
            ${isOpen ? "mt-2rem opacity-100" : "mt-[-25rem] opacity-0"}`}
         >
           <h6>
