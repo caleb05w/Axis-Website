@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import Logo from "../assets/Logo.png";
 import { IoMenu } from "react-icons/io5";
 
+// components
+import Hyperlink from "../Components/Hyperlink";
 /* Icons */
-// import { IoMenu } from "react-icons/iod5";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ function Navbar() {
 
   return (
     <div
-      className={`lg:relative flex flex-col items-center mx-auto  fixed lg:w-full h-fit z-50 top-0  lg:bg-transparent w-[100%] lg:rounded-none rounded-[1rem] lg:shadow-none ease-in-out duration-200 fill-neutral-200
+      className={` flex flex-col items-center mx-auto  fixed lg:w-full h-fit z-50 top-0  lg:bg-transparent w-[100%] lg:rounded-none rounded-[1rem] lg:shadow-none ease-in-out duration-200 fill-neutral-200
     ${isOpen ? "bg-my-light-gray shadow-lg" : "bg-none shadow-none"}`}
     >
       <div
@@ -23,8 +24,11 @@ function Navbar() {
         `}
       >
         <div className="w-full flex flex-row justify-between" id="no-hover">
-          <h6 className=" flex flex-col justify-center">
-            <a href="/">
+          <h6 className=" flex flex-col justify-center ">
+            <a
+              href="/"
+              className="hover:text-my-blue text-white transition duration-300 ease-in-out"
+            >
               <b>
                 <span className="text-my-blue">Axis</span> Consulting
               </b>
@@ -41,18 +45,10 @@ function Navbar() {
           className={`flex flex-col lg:flex-row lg:justify-end gap-[1rem] lg:gap-[2rem]  lg:w-fit w-full  ease-in-out duration-300 lg:opacity-[100]  border-white whitespace-nowrap lg:mt-[0]
            ${isOpen ? "mt-2rem opacity-100" : "mt-[-25rem] opacity-0"}`}
         >
-          <h6>
-            <a href="/Resources">Resources</a>
-          </h6>
-          <h6>
-            <a href="/about">Team</a>
-          </h6>
-          <h6>
-            <a href="/Clients">Clients</a>
-          </h6>
-          <h6>
-            <a href="/GetInvolved">Get Involved</a>
-          </h6>
+          <Hyperlink text="Resources" clickTo="/resources"></Hyperlink>
+          <Hyperlink text="About" clickTo="/about"></Hyperlink>
+          <Hyperlink text="Our Clients" clickTo="/Clients"></Hyperlink>
+          <Hyperlink text="Get Involved" clickTo="GetInvolved"></Hyperlink>
         </div>
       </div>
     </div>

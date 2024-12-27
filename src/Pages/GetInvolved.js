@@ -21,13 +21,13 @@ function GetInvolved() {
       ></Title>
       <section className="flex flex-col lg:flex-row gap-[1rem]  h-fit lg:h-[60vh]">
         <div className="overflow-hidden group rounded-[0.5rem]">
-          <div className="w-[100] h-full  relative overflow-hidden rounded-[0.5rem]">
+          <div className="w-[100] h-full relative overflow-hidden rounded-[0.5rem]">
             <Image Image={Odyssey} Shade={"30"} alt="Odyssey"></Image>
-            <div className="absolute bottom-[20%] lg:bottom-[0%] px-[2%] ">
+            <div className="absolute bottom-[20%] lg:bottom-[50%] px-[2%] ">
               <h4 className=" transition-all duration-500 ease-in-out">
                 Odyssey Mentorship Program
               </h4>
-              <div className=" absolute flex flex-row hover:cursor-pointer opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+              <div className=" absolute flex flex-row hover:cursor-pointer opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue filter">
                 <p className=" ease-in-out duration-500">Register here</p>
                 <div className="text-white  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                   <MdArrowOutward />
@@ -42,12 +42,13 @@ function GetInvolved() {
               Image={WestCoastKidsFoundation}
               alt="Odyssey"
               Scale={"105"}
+              Shade={"30"}
             ></Image>
 
             <div className="absolute bottom-[20%] lg:bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
-              <h4>Support West Kids Foundation</h4>
+              <h4>Event Coming Soon</h4>
               <div className=" absolute flex flex-row hover:cursor-pointer lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
-                <p className=" ease-in-out duration-500">Register here</p>
+                <p className=" ease-in-out duration-500">Stay Tuned!</p>
                 <div className=" text-white flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                   <MdArrowOutward />
                 </div>
@@ -55,7 +56,12 @@ function GetInvolved() {
             </div>
           </div>
           <div className="group min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
-            <Image Image={Odyssey} alt="Odyssey" Scale={"105"}></Image>
+            <Image
+              Image={Odyssey}
+              alt="Odyssey"
+              Shade={"30"}
+              Scale={"105"}
+            ></Image>
 
             <div className="absolute bottom-[20%] lg:bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
               <h4>Support West Kids Foundation</h4>

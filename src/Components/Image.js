@@ -10,9 +10,10 @@ function Image({ Image, altText, Scale, Shade }) {
       onMouseLeave={() => setHovered(false)}
       style={{
         cursor: "pointer",
-        transition: "transform 0.5s ease-in-out",
+        transition: "transform 0.5s ease-in-out, filter 0.5s ease-in-out",
         transform: hovered ? `scale(${Scale / 100})` : "scale(1)",
         filter: hovered ? `brightness(${Shade / 100})` : "brightness(100%)",
+        willChange: "transform, filter",
       }}
     >
       <img

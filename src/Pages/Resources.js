@@ -8,7 +8,10 @@ import { BsPaperclip } from "react-icons/bs";
 import { MdArrowOutward } from "react-icons/md";
 
 //Images
-import org from "../assets/images/org.png";
+import OdysseyMentorshipProgram from "../assets/images/OdysseyMentorshipProgram.png";
+import StratOps101 from "../assets/images/StratOps101.png";
+import Resource1 from "../assets/images/Resource1.png";
+import Resource2 from "../assets/images/Resource2.png";
 
 function Resources() {
   return (
@@ -21,20 +24,20 @@ function Resources() {
       <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem]">
         <div className="flex flex-col lg:flex-row gap-[1rem]">
           <ImageContainer
-            Header={"Visier"}
+            Header={"Advancing in the field: Our tips and tricks"}
             Body={
-              "Market research on the field of HR analytics, market trends in HR an dfinance interactions."
+              "Consolidated insight on the consulting strategies we practice at Axis. "
             }
             CTA={"Read the case"}
-            Image={org}
+            Image={Resource1}
           ></ImageContainer>
           <ImageContainer
-            Header={"West Coast Kids Cancer Foundation"}
+            Header={"Stories of reinvention, strategy and value"}
             Body={
-              "Analysis on the supply chain, bottleneck identification, and recommendation of a just-in-time inventory system"
+              "Read about the team’s takeaways from the projects they have taken on this year."
             }
             CTA={"Read the case"}
-            Image={org}
+            Image={Resource2}
           ></ImageContainer>
         </div>
       </section>
@@ -49,7 +52,11 @@ function Resources() {
           data-aos-offset="200"
         >
           <div className=" w-[full] lg:max-w-[50%] rounded-[0.25rem] overflow-hidden">
-            <img className="w-full h-full" src={org} alt="org" />
+            <img
+              className="w-full h-full"
+              src={OdysseyMentorshipProgram}
+              alt="org"
+            />
           </div>
           <div className="flex flex-col gap-[1rem] w-full lg:max-w-[40%]">
             <p>Event</p>
@@ -78,7 +85,7 @@ function Resources() {
           data-aos-offset="200"
         >
           <div className=" w-[full] lg:max-w-[50%] rounded-[0.25rem] overflow-hidden">
-            <img className="w-full h-full" src={org} alt="org" />
+            <img className="w-full h-full" src={StratOps101} alt="org" />
           </div>
           <div className="flex flex-col gap-[1rem] w-full lg:max-w-[40%]">
             <p>Event</p>
