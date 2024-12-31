@@ -22,17 +22,23 @@ function Footer() {
 
           <div className="flex lg:w-[25%] h-auto justify-between w-full flex-row-reverse">
             <div className="flex flex-col gap-[0.5rem]">
-              <h6 className="font-bold"> Resources </h6>
+              <h6 className="font-bold"> Discover </h6>
               <Hyperlink text="About" clickTo="/about"></Hyperlink>
               <Hyperlink text="Our Clients" clickTo="/Clients"></Hyperlink>
               <Hyperlink text="Get Involved" clickTo="GetInvolved"></Hyperlink>
             </div>
 
             <div className="flex flex-col gap-[0.5rem]">
-              <h6 className="font-bold"> Get Involved </h6>
+              <h6 className="font-bold"> Our Resources</h6>
               <Hyperlink text="Resources" clickTo="/resources"></Hyperlink>
-              <Hyperlink text="Recruitment Package" clickTo="/"></Hyperlink>
-              <Hyperlink text="Apply Here" clickTo="/Clients"></Hyperlink>
+              <Hyperlink
+                text="Coordinator Recruitment Package"
+                clickTo="https://1sfu-my.sharepoint.com/personal/axismd_sfu_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring%2FSpring%20Hiring%20Package%20%28Coordinators%29%2Epdf&parent=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring&ga=1"
+              ></Hyperlink>
+              <Hyperlink
+                text="Consultant Recruitment Package"
+                clickTo="https://1sfu-my.sharepoint.com/personal/axismd_sfu_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring%2FSpring%20Hiring%20Package%20%28Coordinators%29%2Epdf&parent=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring&ga=1"
+              ></Hyperlink>
             </div>
           </div>
         </div>
@@ -58,12 +64,12 @@ function Footer() {
             >
               <FaFacebookF />
             </a>
-            <a
+            {/* <a
               href="google.com"
               className="hover: hover:text-my-blue text-white transition ease-in-out duration-300"
             >
               <MdOutlineEmail />
-            </a>
+            </a> */}
           </div>
           <div className="lg:hidden block">
             <div className="flex flex-col mt-[5%] ">

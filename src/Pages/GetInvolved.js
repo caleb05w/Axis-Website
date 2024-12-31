@@ -10,7 +10,9 @@ import { MdArrowOutward } from "react-icons/md";
 /*Images*/
 import LeadershipTeam from "../assets/images/LeadershipTeam.png";
 import Odyssey from "../assets/images/Odyssey_backgGround.png";
-import WestCoastKidsFoundation from "../assets/images/WestCoastKidsFoundation.png";
+import Axis from "../assets/images/Axis3.gif";
+import Axis2 from "../assets/images/Axis1.gif";
+import Team from "../assets/images/LeadershipTeam.png";
 
 function GetInvolved() {
   return (
@@ -19,17 +21,24 @@ function GetInvolved() {
         Header="Get Involved"
         Body="Become a part of the Axis community by coming to events, joining our programs, and applying to be a part of our team when recruitment season begins."
       ></Title>
-      <section className="flex flex-col lg:flex-row gap-[1rem]  h-fit lg:h-[60vh]">
+      <section className="flex flex-col lg:flex-row gap-[1rem] h-fit lg:h-[70vh]">
         <div className="overflow-hidden group rounded-[0.5rem]">
           <div className="w-[100] h-full relative overflow-hidden rounded-[0.5rem]">
-            <Image Image={Odyssey} Shade={"30"} alt="Odyssey"></Image>
-            <div className="absolute bottom-[20%] lg:bottom-[50%] px-[2%] ">
+            <Image
+              Image={Axis2}
+              CSS={"brightness-[0.6]"}
+              Shade={"30"}
+              alt="Odyssey"
+            ></Image>
+            <div className="absolute bottom-[20%] lg:bottom-[5%] px-[4%] group-hover:-translate-y-5 ease-in-out duration-500 ">
               <h4 className=" transition-all duration-500 ease-in-out">
                 Odyssey Mentorship Program
               </h4>
-              <div className=" absolute flex flex-row hover:cursor-pointer opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue filter">
-                <p className=" ease-in-out duration-500">Register here</p>
-                <div className="text-white  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+              <div className=" absolute flex flex-row  opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue filter">
+                <p className=" ease-in-out duration-500 text-my-blue">
+                  Register here
+                </p>
+                <div className="text-my-blue flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                   <MdArrowOutward />
                 </div>
               </div>
@@ -39,17 +48,20 @@ function GetInvolved() {
         <div className="flex flex-col w-full lg:w-[50%] gap-[1rem] h-full">
           <div className="group min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
             <Image
-              Image={WestCoastKidsFoundation}
+              Image={Axis}
               alt="Odyssey"
               Scale={"105"}
               Shade={"30"}
+              CSS={"brightness-[0.6]"}
             ></Image>
 
             <div className="absolute bottom-[20%] lg:bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
-              <h4>Event Coming Soon</h4>
-              <div className=" absolute flex flex-row hover:cursor-pointer lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
-                <p className=" ease-in-out duration-500">Stay Tuned!</p>
-                <div className=" text-white flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+              <h4>Interested in our Upcoming Events?</h4>
+              <div className=" absolute flex flex-row  lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+                <p className=" ease-in-out duration-500 text-my-blue">
+                  Sign up to stay updated.
+                </p>
+                <div className=" text-my-blue flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                   <MdArrowOutward />
                 </div>
               </div>{" "}
@@ -57,20 +69,28 @@ function GetInvolved() {
           </div>
           <div className="group min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
             <Image
-              Image={Odyssey}
+              Image={Team}
               alt="Odyssey"
               Shade={"30"}
               Scale={"105"}
+              CSS={"brightness-[0.6]"}
             ></Image>
 
             <div className="absolute bottom-[20%] lg:bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
-              <h4>Support West Kids Foundation</h4>
-              <div className=" absolute flex flex-row hover:cursor-pointer lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
-                <p className=" ease-in-out duration-500">Register here</p>
-                <div className="text-white  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+              <h4>Join Our Team</h4>
+              <div className=" absolute flex flex-row lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+                <a
+                  href="https://forms.office.com/pages/responsepage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6271UxuxHhHtFBc1i0Bp95UMFJVQkFGNlk3MTFRRVRXQVFGTVYxSEVMVC4u&route=shorturl"
+                  target="_blank"
+                >
+                  <p className=" ease-in-out duration-500 text-my-blue">
+                    Register here
+                  </p>
+                </a>
+                <div className="text-my-blue  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                   <MdArrowOutward />
                 </div>
-              </div>{" "}
+              </div>
             </div>
           </div>
         </div>
@@ -89,6 +109,9 @@ function GetInvolved() {
         Body={"View Applicaiton Package"}
         ButtonText={"Apply Now"}
         Image={LeadershipTeam}
+        clickTo={
+          "https://forms.office.com/pages/responsepage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6271UxuxHhHtFBc1i0Bp95UMFJVQkFGNlk3MTFRRVRXQVFGTVYxSEVMVC4u&route=shorturl"
+        }
         AltText={"Our lovely leadership team 2024 - 2025"}
       ></ImageContent>
 

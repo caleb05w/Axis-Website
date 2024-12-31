@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Image({ Image, altText, Scale, Shade }) {
+function Image({ Image, altText, Scale, Shade, CSS }) {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -9,7 +9,7 @@ function Image({ Image, altText, Scale, Shade }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
-        cursor: "pointer",
+        // cursor: "pointer",
         transition: "transform 0.5s ease-in-out, filter 0.5s ease-in-out",
         transform: hovered ? `scale(${Scale / 100})` : "scale(1)",
         filter: hovered ? `brightness(${Shade / 100})` : "brightness(100%)",
@@ -17,7 +17,8 @@ function Image({ Image, altText, Scale, Shade }) {
       }}
     >
       <img
-        className="w-full h-full object-cover"
+        className={`w-full h-full object-cover
+          ${CSS}`}
         src={Image}
         alt={altText}
         style={{

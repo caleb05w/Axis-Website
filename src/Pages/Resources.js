@@ -21,7 +21,7 @@ function Resources() {
         Body="Explore our packages and learn more about what Axis has to offer. "
       ></Title>
 
-      <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem]">
+      <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem] ">
         <div className="flex flex-col lg:flex-row gap-[1rem]">
           <ImageContainer
             Header={"Advancing in the field: Our tips and tricks"}
@@ -95,9 +95,14 @@ function Resources() {
               gaining valuable insight on these fields.
             </p>
             <div className="group flex hover:cursor-pointer hover:text-my-blue">
-              <p className=" group-hover:text-my-blue text-my-light-blue transition-all duration-[650ms]">
-                Discover More
-              </p>
+              <a
+                href="https://www.instagram.com/p/DCneYg4vty8/?img_index=1"
+                target="_blank"
+              >
+                <p className=" group-hover:text-my-blue text-my-light-blue transition-all duration-[650ms]">
+                  Discover More
+                </p>
+              </a>
               <div className="flex flex-row items-center ml-[0.25rem] text-my-light-blue group-hover:text-my-blue transition-all duration-[650ms]">
                 <MdArrowOutward />
               </div>
@@ -114,7 +119,7 @@ function Resources() {
         data-aos-easing="ease-in-sine"
         data-aos-offset="0"
       >
-        <h3> Our Engagements </h3>
+        <h3> Our Resources </h3>
         <div className="grid lg:grid-cols-2 gap-[0.8rem]">
           <div className="grid-rows-3 lg:grid flex flex-col gap-[0.8rem] min-w-fit max-h-lvh">
             <IconContainer
@@ -130,11 +135,17 @@ function Resources() {
           <div className="grid-rows-3 lg:grid flex flex-col gap-[0.8rem] min-w-fit max-h-lvh">
             <IconContainer
               Icon={BsPaperclip}
-              Text={"Odyssey & Mentorship"}
+              Text={"Coordinator Application Package"}
+              clickTo={
+                "https://1sfu-my.sharepoint.com/personal/axismd_sfu_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring%2FSpring%20Hiring%20Package%20%28Coordinators%29%2Epdf&parent=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring&ga=1"
+              }
             ></IconContainer>
             <IconContainer
               Icon={BsPaperclip}
-              Text={"Marketing & Sales"}
+              Text={"Consultant Application Package"}
+              clickTo={
+                "https://1sfu-my.sharepoint.com/personal/axismd_sfu_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring%2FSpring%20Hiring%20Package%20%28consulting%29%2Epdf&parent=%2Fpersonal%2Faxismd%5Fsfu%5Fca%2FDocuments%2FAxis%20Consulting%202024%2D2025%2FInternal%2FSpring%20Hiring&ga=1"
+              }
             ></IconContainer>
           </div>
         </div>

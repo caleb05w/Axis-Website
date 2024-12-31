@@ -10,6 +10,10 @@ import { FaRegStickyNote } from "react-icons/fa";
 import ImageContent from "../Components/ImageContent";
 import org from "../assets/images/org.png";
 
+//Images
+import Visier from "../assets/images/Visier.png";
+import WCKCF from "../assets/images/WCKCF.png";
+
 // components
 import ImageContainer from "../Components/ImageContainer";
 import IconContainer from "../Components/IconContainer";
@@ -70,16 +74,18 @@ function Home() {
               Body={
                 "Market research on the field of HR analytics, market trends in HR an dfinance interactions."
               }
-              CTA={"Read the case"}
-              Image={org}
+              CTA={"More information on the client"}
+              Image={Visier}
+              clickTo="https://www.visier.com"
             ></ImageContainer>
             <ImageContainer
               Header={"West Coast Kids Cancer Foundation"}
               Body={
                 "Analysis on the supply chain, bottleneck identification, and recommendation of a just-in-time inventory system"
               }
-              CTA={"Read the case"}
-              Image={org}
+              CTA={"More information on the client"}
+              Image={WCKCF}
+              clickTo="https://wckfoundation.ca"
             ></ImageContainer>
           </div>
         </section>

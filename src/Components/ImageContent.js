@@ -1,15 +1,15 @@
 import React from "react";
 import org from "../assets/images/org.png";
 
-function ImageContent({ Header, Body, ButtonText, Image, AltText }) {
+function ImageContent({ Header, Body, ButtonText, Image, AltText, clickTo }) {
   return (
     <div
-      // data-aos="fade-up"
-      // data-aos-duration="800"
-      // data-aos-delay="200"
-      // data-aos-easing="ease-in-sine"
-      // data-aos-offset="0"
-      className="group relative lg:w-[100%] w-fit h-[50vh] lg:h-fit rounded-md  text-center hover:cursor-pointer overflow-hidden"
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-delay="200"
+      data-aos-easing="ease-in-sine"
+      data-aos-offset="0"
+      className="group relative lg:w-[100%] w-fit h-[50vh] lg:h-fit rounded-md  text-center  overflow-hidden"
     >
       <img
         className=" filter brightness-[0.25] group-hover:scale-[1.03] transition-all duration-500 ease-in-out"
@@ -24,7 +24,9 @@ function ImageContent({ Header, Body, ButtonText, Image, AltText }) {
             {Body}
           </p>
           <div className="w-100% relative filter group-hover:mt-[0%] mt-[2%] group-hover:opacity-100 opacity-100 lg:opacity-0 transition-all duration-[650ms] ease-in-out">
-            <button> {ButtonText} </button>
+            <a href={clickTo}>
+              <button> {ButtonText} </button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo.png";
 import { IoMenu } from "react-icons/io5";
 
 // components

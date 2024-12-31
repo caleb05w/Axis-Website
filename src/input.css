@@ -99,6 +99,23 @@ button:active {
   cursor: pointer;
 }
 
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 12px; /* For vertical scrollbar */
+  height: 12px; /* For horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #acacac; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+  border: 3px solid #1a1a1a; /* Space around the thumb */
+  padding: 0 20px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+}
+
 @media (max-width: 1030px) {
   h1 {
     font-size: 2rem;
