@@ -99,6 +99,7 @@ function Home() {
           AltText={
             "The Axis Consulting Organization 2024-2025 posing for our annual group photo"
           }
+          clickTo="/GetInvolved"
         />
       </div>
     </div>
