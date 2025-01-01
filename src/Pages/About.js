@@ -92,7 +92,7 @@ function About() {
   return (
     <div className=" w-[85%] lg:w-[70%] lg:max-h-100 m-auto flex flex-col mt-[5%] gap-[5rem] lg:gap-[10rem]">
       <Title
-        Header="Who are we?"
+        Header="Who are we"
         Body="Learn about our principles and the Axis Legacy. Discover more about our values, mission and vision for the company."
       ></Title>
 
