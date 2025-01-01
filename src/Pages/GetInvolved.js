@@ -57,14 +57,19 @@ function GetInvolved() {
 
             <div className="absolute bottom-[20%] lg:bottom-[10%] px-[4%] group-hover:bottom-[15%] duration-500 ease-in-out">
               <h4>Interested in our Upcoming Events?</h4>
-              <div className=" absolute flex flex-row  lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
-                <p className=" ease-in-out duration-500 text-my-blue">
-                  Sign up to stay updated.
-                </p>
-                <div className=" text-my-blue flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
-                  <MdArrowOutward />
+              <a
+                target="_blank"
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6JsHL5n-8JLl38GgQsZ96JUQUJaMUs0NkxUSTROQTVBN0YzUzBNUVBOSC4u"
+              >
+                <div className=" absolute flex flex-row  lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
+                  <p className=" ease-in-out duration-500 text-my-blue">
+                    Sign up to stay updated.
+                  </p>
+                  <div className=" text-my-blue flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
+                    <MdArrowOutward />
+                  </div>
                 </div>
-              </div>{" "}
+              </a>
             </div>
           </div>
           <div className="group min-w-[50%] max-h-[50%] rounded-[0.5rem] relative overflow-hidden">
