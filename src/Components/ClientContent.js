@@ -4,7 +4,7 @@ function ClientContent({ Title, Body, Image, AltText }) {
   return (
     <section>
       <div className="flex flex-col lg:flex-row justify-between h-[fit]">
-        <div className="w-[100%] lg:max-w-[30%] lg:max-h-[15vh] overflow-hidden flex">
+        <div className="w-[100%] lg:max-w-[30%] lg:max-h-[15vh] flex">
           '
           <img
             className="w-fit  min-h-fit object-contain "

@@ -107,11 +107,19 @@ function GetInvolved() {
           to improve and build new skills that are transferable and applicable
           both academically and professionally."
         </p>
-        <p className="text-center">Lawrence Zhu</p>
+        <div className="flex flex-col gap-[0.25rem]">
+          <p className="text-center">Lawrence Zhu</p>
+          <p className="text-center text-my-gray">
+            2023/2024 Executive Director of Consulting
+          </p>
+          <p className="text-center text-my-gray">
+            2022/2023 Consulting Team Lead
+          </p>
+        </div>
       </section>
       <ImageContent
         Header={"Your Future Awaits"}
-        Body={"View Applicaiton Package"}
+        Body={"View Application Package"}
         ButtonText={"Apply Now"}
         Image={LeadershipTeam}
         clickTo={
