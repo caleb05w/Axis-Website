@@ -141,11 +141,13 @@ function About() {
                 Name="Chase Landa"
                 Position="Managing Director"
                 img={Chase}
+                clickTo="https://www.linkedin.com/in/chaselanda/"
               ></PersonCard>
               <PersonCard
                 Name="Sandra Chen"
                 Position="Managing Director"
                 img={Sandra}
+                clickTo="https://www.linkedin.com/in/sandrayjchen/"
               ></PersonCard>
             </div>
           </div>
@@ -170,30 +172,36 @@ function About() {
                 Name="Colin Jeon"
                 Position="Director of Strategy"
                 img={Colin}
+                clickTo="http://www.linkedin.com/in/colinjeonn"
               ></PersonCard>
               <PersonCard
                 Name="Wimelia Wong"
                 Position="Director of External"
                 img={Mel}
+                clickTo="https://www.linkedin.com/in/wimelia-wong/"
               ></PersonCard>
               <PersonCard
                 Name="Caleb Wu"
                 Position="Director of Design"
                 img={Caleb}
+                clickTo="https://www.linkedin.com/in/caleb-wu1/"
               ></PersonCard>
               <PersonCard
                 Name="Josie Trinh"
                 Position="Director of Marketing"
                 img={Josie}
+                clickTo="https://www.linkedin.com/in/nghi-trinh-josie"
               ></PersonCard>
               <PersonCard
                 Name="Bryan Chan"
                 Position="Director of Finance"
                 img={Bryan}
+                clickTo="https://www.linkedin.com/in/bryanchanlw/"
               ></PersonCard>
               <PersonCard
-                Name="Shriya"
+                Name="Shriya Narayan"
                 Position="Director of Events"
+                clickTo="https://www.linkedin.com/in/shriya-narayan"
                 img={Shriya}
               ></PersonCard>
             </div>
@@ -219,26 +227,31 @@ function About() {
                 Name="Alex Lee"
                 Position="Team Lead"
                 img={Alex}
+                clickTo="https://www.linkedin.com/in/alexseungjunlee/"
               ></PersonCard>
               <PersonCard
                 Name="Willis Leung"
                 Position="Team Lead"
                 img={Willis}
+                clickTo="https://www.linkedin.com/in/willis-leung/"
               ></PersonCard>
               <PersonCard
                 Name="Eva Yeung"
                 Position="Team Lead"
                 img={Eva}
+                clickTo="https://www.linkedin.com/in/evayueng/"
               ></PersonCard>
               <PersonCard
                 Name="Sabrina Chang"
                 Position="Team Lead"
                 img={Sabrina}
+                clickTo="https://www.linkedin.com/in/sabrinachang-/"
               ></PersonCard>
               <PersonCard
                 Name="Gleanne Abella"
                 Position="Team Lead"
                 img={Gleanne}
+                clickTo="https://www.linkedin.com/in/gleanne-abella/"
               ></PersonCard>
             </div>
           </div>
@@ -268,31 +281,37 @@ function About() {
                 Name="Gleanne"
                 Position="Team Lead"
                 img={Gleanne}
+                clickTo="https://www.linkedin.com/in/gleanne-abella/"
               ></PersonCard>
               <PersonCard
                 Name="Kaia Do"
                 Position="Consultant"
                 img={Kaia}
+                clickTo=" www.linkedin.com/in/kaiado "
               ></PersonCard>
               <PersonCard
                 Name="Clayton Campbell"
                 Position="Consultant"
                 img={Clayton}
+                clickTo="https://www.linkedin.com/in/claytonkwcampbell/"
               ></PersonCard>
               <PersonCard
                 Name="Joseph Lu"
                 Position="Consultant"
                 img={Joseph}
+                clickTo="https://www.linkedin.com/in/j0sephlu/"
               ></PersonCard>
               <PersonCard
                 Name="Melissa Taghdiry"
                 Position="Consultant"
                 img={Melissa}
+                clickTo="https://www.linkedin.com/in/melissa-t-81b376296/"
               ></PersonCard>
               <PersonCard
                 Name="Camille Sanchez"
                 Position="Consultant"
                 img={Camille}
+                clickT="https://www.linkedin.com/in/camillevpsanchez/"
               ></PersonCard>
             </div>
           </div>
@@ -322,31 +341,37 @@ function About() {
                 Name="Willis Leung"
                 Position="Team Lead"
                 img={Willis}
+                clickTo="https://www.linkedin.com/in/willis-leung/"
               ></PersonCard>
               <PersonCard
                 Name="Andrew Novak"
                 Position="Consultant"
                 img={Andrew}
+                clickTo="www.linkedin.com/in/andrew-novak1-b7bb00250"
               ></PersonCard>
               <PersonCard
                 Name="Queenie Chu"
                 Position="Consultant"
                 img={Queenie}
+                clickTo="www.linkedin.com/in/queenie-c-680b1a263"
               ></PersonCard>
               <PersonCard
                 Name="Ryan Thaulad"
                 Position="Consultant"
                 img={Ryan}
+                clickTo="www.linkedin.com/in/ryanthaulad"
               ></PersonCard>
               <PersonCard
                 Name="Sean Hendarto"
                 Position="Consultant"
                 img={Sean}
+                clickTo="https://www.linkedin.com/in/sean-hendarto-7067401b2/"
               ></PersonCard>
               <PersonCard
                 Name="Sabrina Wang"
                 Position="Consultant"
                 img={SabrinaWang}
+                clickTo="https://www.linkedin.com/in/sabrinawang9/"
               ></PersonCard>
             </div>
           </div>
@@ -376,31 +401,37 @@ function About() {
                 Name="Eva Yeung"
                 Position="Team Lead"
                 img={Eva}
+                clickTo=" https://www.linkedin.com/in/evayueng/"
               ></PersonCard>
               <PersonCard
                 Name="Arjan Bolina"
                 Position="Consultant"
                 img={Arjan}
+                clickTo="https://ca.linkedin.com/in/arjan-bolina-4b3645246"
               ></PersonCard>
               <PersonCard
                 Name="Olivia Cheung"
                 Position="Consultant"
                 img={Olivia}
+                clickTo="https://www.linkedin.com/in/olivia-cheng-4a18a02a7/"
               ></PersonCard>
               <PersonCard
                 Name="Nathan Chu"
                 Position="Consultant"
                 img={Nathan}
+                clickTo="https://www.linkedin.com/in/nathan-chu-404a6b1b0/"
               ></PersonCard>
               <PersonCard
                 Name="Sofia Li"
                 Position="Consultant"
                 img={Sofia}
+                clickTo="https://www.linkedin.com/in/lingchangli/"
               ></PersonCard>
               <PersonCard
                 Name="Archita Srivastava"
                 Position="Consultant"
                 img={Archita}
+                clickTo="http://linkedin.com/in/archita7"
               ></PersonCard>
             </div>
           </div>
@@ -430,31 +461,37 @@ function About() {
                 Name="Alex Lee"
                 Position="Team Lead"
                 img={Alex}
+                clickTo="https://www.linkedin.com/in/alexseungjunlee/"
               ></PersonCard>
               <PersonCard
                 Name="Eva Chan"
                 Position="Senior Consultant"
                 img={EvaChan}
+                clickTo="https://www.linkedin.com/in/eva-chan28/"
               ></PersonCard>
               <PersonCard
                 Name="Tan Vu"
                 Position="Consultant"
                 img={Tan}
+                clickTo="https://www.linkedin.com/in/tan-vu/"
               ></PersonCard>
               <PersonCard
                 Name="Keya Aggarwal"
                 Position="Consultant"
                 img={Keya}
+                clickTo="https://www.linkedin.com/in/keyaaggarwal4/"
               ></PersonCard>
               <PersonCard
                 Name="Sam Mcallen"
                 Position="Consultant"
                 img={Sam}
+                clickTo="www.linkedin.com/in/samuel-mccallen"
               ></PersonCard>
               <PersonCard
                 Name="Sonakshi Rao"
                 Position="Consultant"
                 img={Sonakshi}
+                clickTo="linkedin.com/in/sonakshi-rao"
               ></PersonCard>
             </div>
           </div>
@@ -484,26 +521,32 @@ function About() {
                 Name="Sabrina Chang"
                 Position="Team Lead"
                 img={Sabrina}
+                clickTo="https://www.linkedin.com/in/sabrinachang-/"
               ></PersonCard>
               <PersonCard
                 Name="Kirsten Wong"
                 Position="Consultant"
                 img={Kirsten}
+                clickTo=""
+                //NO LINKEDIN//
               ></PersonCard>
               <PersonCard
                 Name="Ezrah Glanville"
                 Position="Consultant"
                 img={Ezrah}
+                clickTo="https://www.linkedin.com/in/ezrahglanville/"
               ></PersonCard>
               <PersonCard
                 Name="Holly Lam"
                 Position="Consultant"
                 img={Holly}
+                clickTo="http://linkedin.com/in/hollylam2126design"
               ></PersonCard>
               <PersonCard
                 Name="Kylie Seto"
                 Position="Consultant"
                 img={Kylie}
+                clickTo="www.linkedin.com/in/kylie-seto"
               ></PersonCard>
             </div>
           </div>
@@ -533,26 +576,31 @@ function About() {
                 Name="Colin Jeon"
                 Position="Director of Strategy"
                 img={Colin}
+                clickTo="http://www.linkedin.com/in/colinjeonn"
               ></PersonCard>
               <PersonCard
                 Name="Marissa Yu"
                 Position="Stragey Analyst"
                 img={Marissa}
+                clickTo="https://www.linkedin.com/in/marissasyu"
               ></PersonCard>
               <PersonCard
                 Name="Sandy Lin"
                 Position="Stragey Analyst"
                 img={Sandy}
+                clickTo="https://www.linkedin.com/in/sandy-lin-075350231/ "
               ></PersonCard>
               <PersonCard
                 Name="Lucy Lui"
                 Position="Stragey Analyst"
                 img={Lucy}
+                clickTo="https://www.linkedin.com/in/lucyliuu/"
               ></PersonCard>
               <PersonCard
                 Name="Carol Wang"
                 Position="Stragey Analyst"
                 img={Carol}
+                clickTo="www.linkedin.com/in/wangmcarol"
               ></PersonCard>
             </div>
           </div>
@@ -582,16 +630,19 @@ function About() {
                 Name="Jessica Xie"
                 Position="Director of Internal"
                 img={Jessica}
+                clickTo="https://www.linkedin.com/in/jessica-xie-/"
               ></PersonCard>
               <PersonCard
                 Name="Nico Tan"
                 Position="Internal Coordinator"
                 img={Nico}
+                clickTo="https://www.linkedin.com/in/nico-tan-3b04a7260/"
               ></PersonCard>
               <PersonCard
                 Name="Trisha Agnihotri"
                 Position="Internal Coordinator"
                 img={Trisha}
+                clickTo="www.linkedin.com/in/trisha-agnihotri"
               ></PersonCard>
             </div>
           </div>
@@ -621,21 +672,25 @@ function About() {
                 Name="Wimelia Wong"
                 Position="Director of External"
                 img={Mel}
+                clickTo=" https://www.linkedin.com/in/wimelia-wong/"
               ></PersonCard>
               <PersonCard
                 Name="Brian Wang"
                 Position="External Coordinator"
                 img={Brian}
+                clickTo="www.linkedin.com/in/brian-c-wang"
               ></PersonCard>
               <PersonCard
                 Name="Jessica Tandibrata"
                 Position="External Coordinator"
                 img={JessicaTandibrata}
+                clickTo="www.linkedin.com/in/jessicatandibrata"
               ></PersonCard>
               <PersonCard
                 Name="Rishaan Parmar"
                 Position="External Coordinator"
                 img={Rishaan}
+                clickTo="www.linkedin.com/in/rishaan-parmar"
               ></PersonCard>
             </div>
           </div>
@@ -662,29 +717,34 @@ function About() {
                 Name="Events Team"
               ></TeamCard>
               <PersonCard
-                Name="Shriya "
+                Name="Shriya Narayan"
                 Position="Director of Events"
                 img={Shriya}
+                clickTo="www.linkedin.com/in/jessicatandibrata"
               ></PersonCard>
               <PersonCard
                 Name="Will De Almeida"
                 Position="Events Coordinator"
                 img={Will}
+                clickTo="https://www.linkedin.com/in/willdalmeida/"
               ></PersonCard>
               <PersonCard
                 Name="Tiffany Chan"
                 Position="Events Coordinator"
                 img={Tiffany}
+                clickTo="https://www.linkedin.com/in/tiffany-chan-84735b1bb/"
               ></PersonCard>
               <PersonCard
                 Name="Ananya Singh"
                 Position="Events Coordinator"
                 img={Ananya}
+                clickTo="https://www.linkedin.com/in/ananya-singh21/"
               ></PersonCard>
               <PersonCard
                 Name="Puneet Dhaliwal"
                 Position="Events Coordinator"
                 img={Puneet}
+                clickTo="www.linkedin.com/in/puneet-dhaliwal-"
               ></PersonCard>
             </div>
           </div>
@@ -714,11 +774,13 @@ function About() {
                 Name="Bryan Chan"
                 Position="Director of Finance"
                 img={Bryan}
+                clickTo="https://www.linkedin.com/in/bryanchanlw/"
               ></PersonCard>
               <PersonCard
                 Name="Sasha Baker"
                 Position="Finance Coordinator"
                 img={Sasha}
+                clickTo="https://www.linkedin.com/in/sashabaker/"
               ></PersonCard>
             </div>
           </div>
@@ -748,31 +810,37 @@ function About() {
                 Name="Caleb Wu"
                 Position="Director of Design"
                 img={Caleb}
+                clickTo="https://www.linkedin.com/in/caleb-wu1/"
               ></PersonCard>
               <PersonCard
                 Name="Josie Trinh"
                 Position="Director of Marketing"
                 img={Josie}
+                clickTo="https://www.linkedin.com/in/nghi-trinh-josie"
               ></PersonCard>
               <PersonCard
                 Name="Clarisse Tan"
                 Position="Design Coordinator"
                 img={Clarisse}
+                // NO LINKED
               ></PersonCard>
               <PersonCard
                 Name="Joseph Lee"
                 Position="Design Coordinator"
                 img={JosephLee}
+                clickTo="https://www.linkedin.com/in/joseph-lee-jl/"
               ></PersonCard>
               <PersonCard
                 Name="Zariyan Mansimoor"
                 Position="Design Strategy Coordinator"
                 img={Zariyan}
+                clickTo="https://www.linkedin.com/in/zariyanmansoor/"
               ></PersonCard>
               <PersonCard
                 Name="Julia Robledano"
                 Position="Visual Media Coordinator"
                 img={Julia}
+                clickTo="www.linkedin.com/in/julia-robledano-20877924b"
               ></PersonCard>
             </div>
           </div>
