@@ -24,20 +24,30 @@ function Resources() {
       <section className="w-[100%] m-auto text-center flex flex-col gap-[3rem] ">
         <div className="flex flex-col lg:flex-row gap-[1rem]">
           <ImageContainer
-            Header={"Advancing in the field: Our tips and tricks"}
-            Body={
-              "Consolidated insight on the consulting strategies we practice at Axis. "
+            Header={
+              "Get a glimpse into consulting: Sign up to receive our Consulting 101 Package "
             }
-            CTA={"Read the case"}
+            Body={
+              "Take the first step towards your consulting career. Click here to sign up for our beginners' guide to consulting."
+            }
+            CTA={"Register here"}
             Image={Resource1}
+            clickTo={
+              "https://forms.office.com/Pages/ResponsePage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6JsHL5n-8JLl38GgQsZ96JUQUJaMUs0NkxUSTROQTVBN0YzUzBNUVBOSC4u"
+            }
           ></ImageContainer>
           <ImageContainer
-            Header={"Stories of reinvention, strategy and value"}
-            Body={
-              "Read about the team’s takeaways from the projects they have taken on this year."
+            Header={
+              "Interested in our upcoming events? Sign up to get updates."
             }
-            CTA={"Read the case"}
+            Body={
+              "Be the first to receive packages, learn about events, and get exclusive access to our resources."
+            }
+            CTA={"Sign up here"}
             Image={Resource2}
+            clickTo={
+              "https://forms.office.com/Pages/ResponsePage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6JsHL5n-8JLl38GgQsZ96JUQUJaMUs0NkxUSTROQTVBN0YzUzBNUVBOSC4u"
+            }
           ></ImageContainer>
         </div>
       </section>

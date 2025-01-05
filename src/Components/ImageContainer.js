@@ -19,7 +19,7 @@ function ImageContainer({ Header, Body, CTA, Image, clickTo, noArrow, CSS }) {
       <div className="absolute flex flex-col gap-[1rem] text-left p-[2rem] pb-[3.5rem] group-hover:pb-[4rem] bottom-0 opacity-[100%] z-10 text-white transition-all duration-500 ease-in-out w-full">
         <h2>{Header}</h2>
         <p>{Body}</p>
-        <a href={clickTo}>
+        <a href={clickTo} target="_blank">
           <div className="flex absolute bottom-0 group-hover:mb-[2rem] mb-[1rem] opacity-100 lg:opacity-0 group-hover:opacity-100 transition-all duration-[650ms] ease-in-out hover:cursor-pointer hover:text-my-blue">
             <p className=" hover:text-my-blue text-my-light-blue transition-all duration-[650ms]">
               {CTA}{" "}
