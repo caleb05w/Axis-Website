@@ -24,7 +24,7 @@ function Home() {
     <div>
       <div className=" lg:w-[70%] w-[88%] h-fit m-auto py-[5%] flex flex-col gap-[5rem] lg:gap-[10rem]">
         <Title
-          Header="Person Growth,"
+          Header="Personal Growth,"
           Header2="Community Impact"
           Body="Axis Consulting is a student-led pro-bono consultancy part of Simon
             Fraser University."
