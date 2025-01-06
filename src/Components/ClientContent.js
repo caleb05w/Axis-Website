@@ -3,11 +3,10 @@ import React from "react";
 function ClientContent({ Title, Body, Image, AltText }) {
   return (
     <section>
-      <div className="flex flex-col lg:flex-row justify-between h-[fit]">
-        <div className="w-[100%] lg:max-w-[30%] lg:max-h-[15vh] flex">
-          '
+      <div className="flex flex-col lg:flex-row justify-between h-[fit] ">
+        <div className="w-[100%] lg:max-w-[30%] max-h-[20vh] flex-col justify-center flex overflow-hidden">
           <img
-            className="w-fit  min-h-fit object-contain "
+            className="w-fit h-full object-contain"
             src={Image}
             alt={AltText}
           />

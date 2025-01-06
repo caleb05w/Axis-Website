@@ -45,17 +45,23 @@ function Clients() {
         />
       </section>
 
-      <section className="e text-center gap-[2rem] w-fit h-fit flex flex-col">
+      <section className="e text-center gap-[2rem] w-fit h-fit flex flex-col border-2 border-white">
         <h3>Our Clients We've worked with</h3>
-        <img src={ourClients} alt="Our Clients" />
+        <img
+          src={ourClients}
+          className="w-full h-full object-cover"
+          alt="Our Clients"
+        />
       </section>
-      <ImageContent
-        Header="Want to work with us?"
-        Body="Let's get in touch"
-        ButtonText="Contact Us"
-        Image={clientImage}
-        AltText="Organization"
-      />
+      <div className="w-[100%] h-[100%] overflow-hidden">
+        <ImageContent
+          Header="Want to work with us?"
+          Body="Let's get in touch"
+          ButtonText="Contact Us"
+          Image={clientImage}
+          AltText="Organization"
+        />
+      </div>
     </div>
   );
 }
