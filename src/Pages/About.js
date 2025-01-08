@@ -831,7 +831,7 @@ function About() {
                 clickTo="https://www.linkedin.com/in/joseph-lee-jl/"
               ></PersonCard>
               <PersonCard
-                Name="Zariyan Mansimoor"
+                Name="Zariyan Mansoor"
                 Position="Design Strategy Coordinator"
                 img={Zariyan}
                 clickTo="https://www.linkedin.com/in/zariyanmansoor/"
