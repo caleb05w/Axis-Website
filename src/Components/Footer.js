@@ -49,18 +49,21 @@ function Footer() {
             <a
               href="https://www.linkedin.com/company/18467218"
               className="hover: hover:text-my-blue text-white transition ease-in-out duration-300"
+              target="_blank"
             >
               <FaLinkedinIn />
             </a>
             <a
               href="https://www.instagram.com/sfuaxisconsulting/"
               className="hover: hover:text-my-blue text-white transition ease-in-out duration-300"
+              target="_blank"
             >
               <FaInstagram />
             </a>
             <a
               href="https://www.facebook.com/SFUAxisConsulting/"
               className="hover: hover:text-my-blue text-white transition ease-in-out duration-300"
+              target="_blank"
             >
               <FaFacebookF />
             </a>

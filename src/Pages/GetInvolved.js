@@ -35,9 +35,11 @@ function GetInvolved() {
                 Odyssey Mentorship Program
               </h4>
               <div className=" absolute flex flex-row  opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue filter">
-                <p className=" ease-in-out duration-500 text-my-blue">
-                  Register here
-                </p>
+                <a href="">
+                  <p className=" ease-in-out duration-500 text-my-blue">
+                    Registration is currently closed.
+                  </p>
+                </a>
                 <div className="text-my-blue flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                   <MdArrowOutward />
                 </div>
@@ -63,7 +65,7 @@ function GetInvolved() {
               >
                 <div className=" absolute flex flex-row  lg:opacity-0 group-hover:opacity-100  lg:mt-[0.3rem] group-hover:mt-[0rem] duration-[650ms] ease-in-out hover:text-my-blue">
                   <p className=" ease-in-out duration-500 text-my-blue">
-                    Sign up to stay updated.
+                    Join our mailing list.
                   </p>
                   <div className=" text-my-blue flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
                     <MdArrowOutward />
@@ -89,7 +91,7 @@ function GetInvolved() {
                   target="_blank"
                 >
                   <p className=" ease-in-out duration-500 text-my-blue">
-                    Register here
+                    Application Link
                   </p>
                 </a>
                 <div className="text-my-blue  flex flex-row items-center ml-[0.25rem] transition-ease-in-out duration-500">
@@ -132,9 +134,9 @@ function GetInvolved() {
         <h2 className="mb-[2rem] text-center"> Frequently Asked Questions</h2>
 
         <FAQContainer
-          Header={"What is Axis"}
+          Header={"What is Axis?"}
           Body={
-            "Axis is a student-led pro bono organisation in SFU, providing clients with innovative solutions."
+            "Axis is a student-led pro bono organization in SFU, providing clients with innovative solutions."
           }
         ></FAQContainer>
 

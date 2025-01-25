@@ -235,11 +235,17 @@ function About() {
                 img={Willis}
                 clickTo="https://www.linkedin.com/in/willis-leung/"
               ></PersonCard>
-              <PersonCard
+              {/* <PersonCard
                 Name="Eva Yeung"
                 Position="Team Lead"
                 img={Eva}
                 clickTo="https://www.linkedin.com/in/evayueng/"
+              ></PersonCard> */}
+              <PersonCard
+                Name="Kylie Seto"
+                Position="Team Lead"
+                img={Kylie}
+                clickTo="www.linkedin.com/in/kylie-seto"
               ></PersonCard>
               <PersonCard
                 Name="Sabrina Chang"
@@ -247,11 +253,17 @@ function About() {
                 img={Sabrina}
                 clickTo="https://www.linkedin.com/in/sabrinachang-/"
               ></PersonCard>
-              <PersonCard
+              {/* <PersonCard
                 Name="Gleanne Abella"
                 Position="Team Lead"
                 img={Gleanne}
                 clickTo="https://www.linkedin.com/in/gleanne-abella/"
+              ></PersonCard> */}
+              <PersonCard
+                Name="Sean Hendarto"
+                Position="Team Lead"
+                img={Sean}
+                clickTo="https://www.linkedin.com/in/sean-hendarto-7067401b2/"
               ></PersonCard>
             </div>
           </div>
@@ -403,12 +415,12 @@ function About() {
                 img={Eva}
                 clickTo=" https://www.linkedin.com/in/evayueng/"
               ></PersonCard>
-              <PersonCard
+              {/* <PersonCard
                 Name="Arjan Bolina"
                 Position="Consultant"
                 img={Arjan}
                 clickTo="https://ca.linkedin.com/in/arjan-bolina-4b3645246"
-              ></PersonCard>
+              ></PersonCard> */}
               <PersonCard
                 Name="Olivia Cheung"
                 Position="Consultant"
@@ -427,12 +439,12 @@ function About() {
                 img={Sofia}
                 clickTo="https://www.linkedin.com/in/lingchangli/"
               ></PersonCard>
-              <PersonCard
+              {/* <PersonCard
                 Name="Archita Srivastava"
                 Position="Consultant"
                 img={Archita}
                 clickTo="http://linkedin.com/in/archita7"
-              ></PersonCard>
+              ></PersonCard> */}
             </div>
           </div>
         </div>
@@ -541,12 +553,6 @@ function About() {
                 Position="Consultant"
                 img={Holly}
                 clickTo="http://linkedin.com/in/hollylam2126design"
-              ></PersonCard>
-              <PersonCard
-                Name="Kylie Seto"
-                Position="Consultant"
-                img={Kylie}
-                clickTo="www.linkedin.com/in/kylie-seto"
               ></PersonCard>
             </div>
           </div>

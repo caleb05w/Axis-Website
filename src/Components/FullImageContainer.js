@@ -6,7 +6,7 @@ function FullImageContainer({ Header, Body, CTA, Image }) {
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="group relative hover:cursor-pointer"
+      className="group relative "
     >
       <div className="absolute flex flex-col gap-[1rem] text-left p-[2rem] pb-[3.5rem] group-hover:pb-[4rem] bottom-0 opacity-[100%] z-10 text-white transition-all duration-500 ease-in-out">
         <h2>{Header}</h2>

@@ -35,16 +35,19 @@ function Home() {
             <IconContainer
               Icon={IoIosCheckmark}
               Text={"63 Projects"}
+              clickTo=""
             ></IconContainer>
 
             <IconContainer
               Icon={MdOutlinePeopleAlt}
               Text={"200 Consultants"}
+              clickTo=""
             ></IconContainer>
 
             <IconContainer
               Icon={IoMdStarOutline}
               Text={"4.5/5 Rating"}
+              clickTo=""
             ></IconContainer>
           </div>
 
@@ -52,16 +55,19 @@ function Home() {
             <IconContainer
               Icon={BsPaperclip}
               Text={"100% Retention"}
+              clickTo=""
             ></IconContainer>
 
             <IconContainer
               Icon={FaRegHeart}
               Text={"100% Satisfaction"}
+              clickTo=""
             ></IconContainer>
 
             <IconContainer
               Icon={FaRegStickyNote}
               Text={"100% Recommendation"}
+              clickTo=""
             ></IconContainer>
           </div>
         </section>

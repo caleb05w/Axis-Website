@@ -1,7 +1,15 @@
 import React from "react";
 import org from "../assets/images/org.png";
 
-function ImageContent({ Header, Body, ButtonText, Image, AltText, clickTo }) {
+function ImageContent({
+  Header,
+  Body,
+  ButtonText,
+  Image,
+  AltText,
+  clickTo,
+  execute,
+}) {
   return (
     <div
       data-aos="fade-up"
@@ -25,7 +33,7 @@ function ImageContent({ Header, Body, ButtonText, Image, AltText, clickTo }) {
           </p>
           <div className="w-100% relative filter group-hover:mt-[0%] mt-[2%] group-hover:opacity-100 opacity-100 lg:opacity-0 transition-all duration-[650ms] ease-in-out">
             <a href={clickTo}>
-              <button> {ButtonText} </button>
+              <button onClick={execute}> {ButtonText} </button>
             </a>
           </div>
         </div>

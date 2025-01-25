@@ -45,7 +45,7 @@ function Clients() {
         />
       </section>
 
-      <section className="e text-center gap-[2rem] w-fit h-fit flex flex-col border-2 border-white">
+      <section className="e text-center gap-[2rem] w-fit h-fit flex flex-col ">
         <h3>Our Clients We've worked with</h3>
         <img
           src={ourClients}
@@ -58,6 +58,12 @@ function Clients() {
           Header="Want to work with us?"
           Body="Let's get in touch"
           ButtonText="Contact Us"
+          execute={() => {
+            const email = "example@example.com";
+            navigator.clipboard.writeText(email).then(() => {
+              alert("Email copied to clipboard!");
+            });
+          }}
           Image={clientImage}
           AltText="Organization"
         />

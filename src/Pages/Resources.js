@@ -43,7 +43,7 @@ function Resources() {
             Body={
               "Be the first to receive packages, learn about events, and get exclusive access to our resources."
             }
-            CTA={"Sign up here"}
+            CTA={"Join our mailing list"}
             Image={Resource2}
             clickTo={
               "https://forms.office.com/Pages/ResponsePage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6JsHL5n-8JLl38GgQsZ96JUQUJaMUs0NkxUSTROQTVBN0YzUzBNUVBOSC4u"
@@ -135,10 +135,12 @@ function Resources() {
             <IconContainer
               Icon={BsPaperclip}
               Text={"Consulting 101"}
+              clickTo="https://forms.office.com/Pages/ResponsePage.aspx?id=fmfoBInJuUeGGdg9Wl9sZ6JsHL5n-8JLl38GgQsZ96JUQUJaMUs0NkxUSTROQTVBN0YzUzBNUVBOSC4u"
             ></IconContainer>
             <IconContainer
               Icon={BsPaperclip}
               Text={"Strategy + Operations 101"}
+              clickTo=""
             ></IconContainer>
           </div>
 
